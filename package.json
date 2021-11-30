@@ -1,0 +1,54 @@
+{
+  "name": "payment-api",
+  "version": "1.0.0",
+  "description": "Node.js App to take a payment from the enduser and credit the amount to client after 2.4% fee deduction",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "javascript"
+  ],
+  "author": "Bheemi Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "extends": "airbnb",
+    "rules": {
+      "linebreak-style": 0
+    }
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "prettier": "^2.1.2",
+    "jest": "^26.4.2"
+  }
+}
